@@ -2,6 +2,36 @@
 
 Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Developer and a student in software engineering, you are embarking on an exciting journey to contribute to our project aimed at developing a secure, robust REST API that supports JWT token-based OAuth2 authentication. This API serves as the backbone of our user management system and will eventually expand to include features for event management and registration.
 
+## Learning Outcome from the Homework
+
+1. I have learned how to work as a QA Analyst by creating issues by checking the codebase and running the test cases on the methods that are being executed as the functionalities from the application. Fixing these issues helped me gain more knowledge about how to do debugging in a project and how to fix a bug, Things like how to add an enhancement without breaking the existing functionality of the application. By checking all kinds of dependencies how do we fix the vulnerabilities raised in the security scans is one of the learning outcome from this assignment.
+2. The problems that I have faced while doing this assignment was to find out how to connect to SMTP server as the environment variable finding the issue by debugging it. Here I learnt about what a developer would work like while fixing a bug or updating a feature. 
+3. Linking the commits to a issue will help in getting the code changes that are done on a particular code file while fixing a particular bug.If that the other developers will also know what code change or what commit is depended on what issue.
+
+## Docker Hub Image Deployment
+
+[Link for DockerHub ](https://hub.docker.com/repository/docker/vt325/event_manager_hw10/general)
+
+![dockerhubimage](./docker_hub.png)
+
+## Issues Raised and Worked
+
+Enhancement: 
+
+[Update Password Validation](https://github.com/vt325456/event_manager_hw10/issues/11)
+
+Bugs:
+
+[ValidationError on user_response_valid](https://github.com/vt325456/event_manager_hw10/issues/9)
+
+[Pydantic Validations on missing elements](https://github.com/vt325456/event_manager_hw10/issues/4)
+
+[Missing token generation based on UserRole](https://github.com/vt325456/event_manager_hw10/issues/3)
+
+[KeyErrors on nickname and firstname](https://github.com/vt325456/event_manager_hw10/issues/2)
+
+[Error on SMTP Server connection - SMTPServerDisconnected](https://github.com/vt325456/event_manager_hw10/issues/1)
+
 ## Assignment Objectives
 
 1. **Familiarize with REST API functionality and structure**: Gain hands-on experience working with a REST API, understanding its endpoints, request/response formats, and authentication mechanisms.
