@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-smtp_username = os.getenv("smtp_username")
-smtp_password = os.getenv("smtp_password")
+SMTP_USERNAME = os.getenv("SMTP_USERNAME")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 
 
 class Settings(BaseSettings):
@@ -46,8 +46,8 @@ class Settings(BaseSettings):
     # Email settings for Mailtrap
     smtp_server: str = Field(default='smtp.mailtrap.io', description="SMTP server for sending emails")
     smtp_port: int = Field(default=2525, description="SMTP port for sending emails")
-    smtp_username: str = Field(default=smtp_username, description="Username for SMTP server")
-    smtp_password: str = Field(default=smtp_password, description="Password for SMTP server")
+    smtp_username: str = Field(default=SMTP_USERNAME, description="Username for SMTP server")
+    smtp_password: str = Field(default=SMTP_PASSWORD, description="Password for SMTP server")
 
 
     class Config:
